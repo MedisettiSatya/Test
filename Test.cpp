@@ -1,11 +1,8 @@
 #include <iostream>
-class Test{
-	public:
-		int a;
-		Test(int a):a(a){
-			std::cout<<"a = "<<a;
-		}
-};
-int main(){
-	std::cout<<"Hello\n";
+#include "Test.h"
+Test::Test(int a,int b):aa(a),bb(b){
+   
+}
+void Test::add(){
+	std::cout<<"aa "<<aa<<" "<<"bb "<<bb<<"\n";
 }
